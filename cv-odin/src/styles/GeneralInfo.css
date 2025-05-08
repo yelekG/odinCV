@@ -1,0 +1,8 @@
+.general-info {
+    margin-bottom: 2rem;
+}
+  
+.general-info label {
+    display: grid;
+    margin: 0.1rem;
+}

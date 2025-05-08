@@ -1,0 +1,70 @@
+:root {
+    color: black;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f6f6f6;
+    padding: 2rem;
+}
+
+#title {
+    color: black;
+}
+
+section {
+    padding: 1rem;
+    border: 2px solid black;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0.5rem;
+    
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4338ca;
+}
+  
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,auto);
+    gap: 2rem;
+}
+
+#resetBtn {
+    background-color: red;
+}
+
+button {
+    margin: 0.5rem;
+}

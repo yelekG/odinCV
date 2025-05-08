@@ -1,0 +1,8 @@
+.education {
+    margin-bottom: 2rem;
+}
+  
+.education label {
+    display: grid;
+    margin: 0.1rem;
+}
